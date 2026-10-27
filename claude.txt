@@ -1,0 +1,18 @@
+# Anthropic / Claude 系 — Clash / Clash Meta / OpenClash
+# behavior: classical
+# format: text
+# 覆盖 Claude、Anthropic 控制台 / API / 静态资源
+# 不含策略名，引用时自行指定 PROXY / DIRECT
+
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,anthropicusercontent.com
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude.ai
+
+# 客户端进程（Clash Meta）
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude.exe
+PROCESS-NAME,Anthropic

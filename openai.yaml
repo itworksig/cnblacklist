@@ -1,0 +1,20 @@
+# OpenAI 系（ChatGPT / API / Sora）
+# Clash / Clash Meta / OpenClash rule-provider
+# behavior: classical
+# format: yaml
+payload:
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,openai.org
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,chat.com
+  - DOMAIN-SUFFIX,sora.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-KEYWORD,openai
+  - DOMAIN-KEYWORD,chatgpt
+  - DOMAIN-KEYWORD,oaistatic
+  - DOMAIN-KEYWORD,oaiusercontent
+  - PROCESS-NAME,ChatGPT
+  - PROCESS-NAME,ChatGPT.exe
+  - PROCESS-NAME,OpenAI
+  - PROCESS-NAME,Sora

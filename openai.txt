@@ -1,0 +1,23 @@
+# OpenAI 系 — Clash / Clash Meta / OpenClash
+# behavior: classical
+# format: text
+# 覆盖 ChatGPT / OpenAI API / Sora / 静态资源与用户上传域名
+# 不含策略名，引用时自行指定 PROXY / DIRECT
+
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chat.com
+DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,oaistatic
+DOMAIN-KEYWORD,oaiusercontent
+
+# 客户端进程（Clash Meta）
+PROCESS-NAME,ChatGPT
+PROCESS-NAME,ChatGPT.exe
+PROCESS-NAME,OpenAI
+PROCESS-NAME,Sora

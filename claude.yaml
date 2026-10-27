@@ -1,0 +1,15 @@
+# Anthropic / Claude 系（Claude / API / 控制台）
+# Clash / Clash Meta / OpenClash rule-provider
+# behavior: classical
+# format: yaml
+payload:
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,anthropicusercontent.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,claude.ai
+  - PROCESS-NAME,Claude
+  - PROCESS-NAME,Claude.exe
+  - PROCESS-NAME,Anthropic

@@ -1,0 +1,30 @@
+# X / Twitter 系（Twitter / 短链 / CDN / xAI / Grok）
+# Clash / Clash Meta / OpenClash rule-provider
+# behavior: classical
+# format: yaml
+payload:
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,twitter.co
+  - DOMAIN-SUFFIX,twitterinc.com
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,twttr.com
+  - DOMAIN-SUFFIX,ads-twitter.com
+  - DOMAIN-SUFFIX,tweetdeck.com
+  - DOMAIN-SUFFIX,cms-twdigitalassets.com
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,twimg
+  - DOMAIN-KEYWORD,tweetdeck
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,vine.co
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-KEYWORD,grok
+  - PROCESS-NAME,Twitter
+  - PROCESS-NAME,Twitter.exe
+  - PROCESS-NAME,X
+  - PROCESS-NAME,X.exe
+  - PROCESS-NAME,Grok
+  - PROCESS-NAME,Grok.exe

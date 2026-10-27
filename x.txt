@@ -1,0 +1,38 @@
+# X / Twitter 系 — Clash / Clash Meta / OpenClash
+# behavior: classical
+# format: text
+# 覆盖 X、Twitter、短链、图片视频 CDN、TweetDeck、Periscope、xAI / Grok
+# 不含策略名，引用时自行指定 PROXY / DIRECT
+
+# X / Twitter
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twitter.co
+DOMAIN-SUFFIX,twitterinc.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twttr.com
+DOMAIN-SUFFIX,ads-twitter.com
+DOMAIN-SUFFIX,tweetdeck.com
+DOMAIN-SUFFIX,cms-twdigitalassets.com
+DOMAIN-KEYWORD,twitter
+DOMAIN-KEYWORD,twimg
+DOMAIN-KEYWORD,tweetdeck
+
+# 旧产品
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,vine.co
+
+# xAI / Grok（X 生态）
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
+DOMAIN-KEYWORD,grok
+
+# 客户端进程（Clash Meta）
+PROCESS-NAME,Twitter
+PROCESS-NAME,Twitter.exe
+PROCESS-NAME,X
+PROCESS-NAME,X.exe
+PROCESS-NAME,Grok
+PROCESS-NAME,Grok.exe
