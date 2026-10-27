@@ -1,0 +1,86 @@
+# Meta 系 — Clash / Clash Meta / OpenClash
+# behavior: classical
+# format: text
+# 覆盖 Facebook / Instagram / WhatsApp / Messenger / Threads / Oculus / Workplace 等
+# 不含策略名，引用时自行指定 PROXY / DIRECT
+
+# Facebook
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,facebook.org
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fb.gg
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,fbcdn.com
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbpigeon.com
+DOMAIN-SUFFIX,tfbnw.net
+DOMAIN-SUFFIX,facebook-hardware.com
+DOMAIN-SUFFIX,accountkit.com
+DOMAIN-SUFFIX,atlassolutions.com
+DOMAIN-SUFFIX,parsecdn.com
+DOMAIN-KEYWORD,facebook
+DOMAIN-KEYWORD,fbcdn
+
+# Instagram
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,instagr.am
+DOMAIN-SUFFIX,ig.me
+DOMAIN-KEYWORD,instagram
+DOMAIN-KEYWORD,cdninstagram
+
+# WhatsApp
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+DOMAIN-SUFFIX,whatsapp.biz
+DOMAIN-SUFFIX,whatsappbrand.com
+DOMAIN-SUFFIX,wa.me
+DOMAIN-KEYWORD,whatsapp
+
+# Messenger
+DOMAIN-SUFFIX,messenger.com
+DOMAIN-SUFFIX,msngr.com
+DOMAIN-SUFFIX,m.me
+DOMAIN-KEYWORD,messenger
+
+# Meta / AI / 招聘
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metacareers.com
+DOMAIN-SUFFIX,metamirror.io
+
+# Threads
+DOMAIN-SUFFIX,threads.net
+DOMAIN-SUFFIX,threads.com
+
+# Oculus / Horizon / VR
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,oculusvr.com
+DOMAIN-SUFFIX,oculusrift.com
+DOMAIN-SUFFIX,horizonworlds.com
+DOMAIN-KEYWORD,oculus
+
+# Workplace / 企业
+DOMAIN-SUFFIX,workplace.com
+
+# 其他 Meta 产品
+DOMAIN-SUFFIX,mapillary.com
+DOMAIN-SUFFIX,giphy.com
+DOMAIN-SUFFIX,wit.ai
+DOMAIN-SUFFIX,internet.org
+DOMAIN-SUFFIX,freebasics.com
+
+# 客户端进程（Clash Meta）
+PROCESS-NAME,Facebook
+PROCESS-NAME,Messenger
+PROCESS-NAME,Instagram
+PROCESS-NAME,WhatsApp
+PROCESS-NAME,WhatsApp.exe
+PROCESS-NAME,WhatsApp.App
+PROCESS-NAME,Threads
+PROCESS-NAME,Oculus
+PROCESS-NAME,Meta Horizon

@@ -1,0 +1,32 @@
+# Telegram 系（客户端 / Web / CDN / Bot / Telegraph / Fragment）
+# Clash / Clash Meta / OpenClash rule-provider
+# behavior: classical
+# format: yaml
+payload:
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.dog
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tx.me
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,telegram.space
+  - DOMAIN-SUFFIX,tg.dev
+  - DOMAIN-KEYWORD,telegram
+  - DOMAIN-KEYWORD,tdesktop
+  - DOMAIN-SUFFIX,telegram-cdn.org
+  - DOMAIN-SUFFIX,telegramcdn.org
+  - DOMAIN-SUFFIX,cdn-telegram.org
+  - DOMAIN-SUFFIX,telesco.pe
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,graph.org
+  - DOMAIN-SUFFIX,comments.app
+  - DOMAIN-SUFFIX,contest.com
+  - DOMAIN-SUFFIX,fragment.com
+  - DOMAIN-SUFFIX,ton.org
+  - DOMAIN-SUFFIX,toncoin.org
+  - PROCESS-NAME,Telegram
+  - PROCESS-NAME,Telegram.exe
+  - PROCESS-NAME,Telegram Desktop
+  - PROCESS-NAME,org.telegram.messenger
+  - PROCESS-NAME,org.telegram.messenger.web
+  - PROCESS-NAME,ph.telegra.Telegraph

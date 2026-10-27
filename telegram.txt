@@ -1,0 +1,44 @@
+# Telegram 系 — Clash / Clash Meta / OpenClash
+# behavior: classical
+# format: text
+# 覆盖 Telegram 客户端、Web、CDN、Bot API、Telegraph、Fragment 等官方域名
+# 不含策略名，引用时自行指定 PROXY / DIRECT
+
+# 主站 / 短链 / 客户端下载
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telegram.me
+DOMAIN-SUFFIX,telegram.dog
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,tx.me
+DOMAIN-SUFFIX,tdesktop.com
+DOMAIN-SUFFIX,telegram.space
+DOMAIN-SUFFIX,tg.dev
+DOMAIN-KEYWORD,telegram
+DOMAIN-KEYWORD,tdesktop
+
+# CDN / 媒体
+DOMAIN-SUFFIX,telegram-cdn.org
+DOMAIN-SUFFIX,telegramcdn.org
+DOMAIN-SUFFIX,cdn-telegram.org
+DOMAIN-SUFFIX,telesco.pe
+
+# Telegraph 图文平台
+DOMAIN-SUFFIX,telegra.ph
+DOMAIN-SUFFIX,graph.org
+
+# Bot / 小程序 / 评论 / 活动
+DOMAIN-SUFFIX,comments.app
+DOMAIN-SUFFIX,contest.com
+
+# Fragment（官方用户名 / 号码拍卖，TON）
+DOMAIN-SUFFIX,fragment.com
+DOMAIN-SUFFIX,ton.org
+DOMAIN-SUFFIX,toncoin.org
+
+# 客户端进程（Clash Meta）
+PROCESS-NAME,Telegram
+PROCESS-NAME,Telegram.exe
+PROCESS-NAME,Telegram Desktop
+PROCESS-NAME,org.telegram.messenger
+PROCESS-NAME,org.telegram.messenger.web
+PROCESS-NAME,ph.telegra.Telegraph
